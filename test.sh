@@ -14,10 +14,28 @@
 # ps -ef  →  grep
 #################################################################
 
+#The Script
 echo 1
 echo 11
 echo 55
 echo 99
 echo 12
+##########
 
 
+
+
+
+
+
+
+
+#Interview Question###################
+
+# date | echo "Today is" -> Today is
+# ls nofile | wc -l -> 
+
+# Tip
+# You Need to Understand Unix streams
+
+#######################################
