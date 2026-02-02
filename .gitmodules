@@ -1,3 +1,0 @@
-[submodule "ansible"]
-	path = ansible
-	url = https://github.com/kushagra4321gkp-droid/ansible.git
