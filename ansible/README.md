@@ -1,4 +1,4 @@
-# Simple Ansible Nginx Setup
+# Ansible playbook -> Nginx Setup
 
 This is a **basic Ansible project** created for learning purposes. It demonstrates how to use Ansible to **install and restart Nginx** on EC2 instances using a simple playbook and an Ansible Galaxy role.
 
@@ -120,7 +120,7 @@ After running the playbook:
 * No Ansible Vault or advanced configurations used
 * Meant for beginners learning Ansible basics
 
-## 📄 Author
+## 📄 Author: Kushagra Tiwari
 
 Created while learning Ansible basics 🚀
 
