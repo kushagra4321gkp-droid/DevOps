@@ -1,18 +1,37 @@
-# DevOps Utility Scripts 🛠️
+# DevOps 🚀
 
-A collection of lightweight shell scripts used for monitoring and automation tasks.
+This repository is a **personal DevOps learning and practice workspace**.
 
-## Scripts
+It is used to explore, practice, and document real-world DevOps concepts
+through hands-on examples, automation, and infrastructure tooling.
 
-### nodeHealth.sh
-Checks system health including:
-- CPU usage
-- Memory usage
-- Disk usage
-- System uptime
+The focus of this repo is:
+- learning by doing
+- building strong fundamentals
+- organizing DevOps knowledge in a scalable way
 
-## Usage
+---
 
-```bash
-chmod +x nodeHealth.sh
-./nodeHealth.sh
+## 📌 What This Repository Covers
+
+This repository will gradually include work related to:
+
+- Linux & Shell scripting
+- Git & GitHub
+- Infrastructure as Code (IaC)
+- Configuration Management
+- CI/CD pipelines
+- Cloud platforms (AWS)
+- Containers & Kubernetes
+- Monitoring & logging
+
+The content evolves as my DevOps journey progresses.
+
+---
+
+## 📂 Repository Structure
+
+This repository is organized by **DevOps domains**.
+Some directories are maintained as **Git submodules** to keep concerns isolated
+while still living under a single DevOps umbrella.
+
