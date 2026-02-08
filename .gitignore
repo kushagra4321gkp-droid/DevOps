@@ -1,8 +1,8 @@
-# Terraform (ALL levels)
-**/.terraform/**
+# Terraform (all levels)
+**/.terraform/
 **/*.tfstate
 **/*.tfstate.*
-**/.terraform.lock.hcl
-
-# Logs
+*.tfvars
 crash.log
+.terraform.lock.hcl
+
