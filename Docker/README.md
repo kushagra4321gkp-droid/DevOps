@@ -308,7 +308,7 @@ Output of the above command
     Removing intermediate container 5d60ad3a59ff
      ---> 960d37536dcd
     Successfully built 960d37536dcd
-    Successfully tagged abhishekf5/my-first-docker-image:latest
+    Successfully tagged kushcode123/my-first-docker-image:latest
 ```
 
 ### Verify Docker Image is created
