@@ -1,10 +1,7 @@
-ubuntu@ip-172-31-17-219:~/Docker-Zero-to-Hero$ cat README.md
-# Repo to learn Docker with examples. Contributions are most welcome.
 
-## If you found this repo useful, give it a STAR 🌠
+# Repo to Learn Docker with examples.
 
-You can watch the video version of this repo on my youtube playlist. -> https://www.youtube.com/watch?v=7JZP345yVjw&list=PLdpzxOOAlwvLjb0vTD9BXLOwwLD_GWCmC
-
+## If you found this repo useful, Give it a STAR 🌠
 
 ## What is a container ?
 
@@ -47,8 +44,7 @@ To provide a better picture of files and folders that containers base images hav
 
 
 
-### Files and Folders in containers base images
-
+### Files and Folders in containers base imagesL
 ```
     /bin: contains binary executable files, such as the ls, cp, and ps commands.
 
