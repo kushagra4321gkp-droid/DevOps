@@ -105,10 +105,10 @@ pipeline {
 ### Status
 ![Status](images/Status.png)
 
-### Pipeline Overview
+### Pipeline Overview ---------------------------------------------------------------------------------------------------------------
 ![Pipeline Overview](images/Pipeline_Overview.png)
 
-### Timing
+### Timing --------------------------------------------------------------------------------------------------------------------------
 ![Timing](images/Timing.png)
 
 ---
