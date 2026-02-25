@@ -1,51 +1,70 @@
-��� JobApp - CI Pipeline with Jenkins
-This project demonstrates a complete Continuous Integration (CI) workflow using Jenkins to build and test a Spring Boot application.
+# � JobApp - CI Pipeline with Jenkins
 
-��� Project Overview
+This project demonstrates a complete Continuous Integration (CI) workflow using **Jenkins** to build and test a Spring Boot application.
+
+---
+
+## � Project Overview
+
 This repository contains:
 
-✅ Spring Boot application
-✅ Jenkins Declarative Pipeline
-✅ Automated build process
-✅ Automated test execution
-✅ CI pipeline monitoring
+- ✅ Spring Boot application
+- ✅ Jenkins Declarative Pipeline
+- ✅ Automated build process
+- ✅ Automated test execution
+- ✅ CI pipeline monitoring
+
 The pipeline ensures that every code change is automatically built and tested.
 
-���️ Tech Stack
-Java 21
-Maven
-Spring Boot
-Jenkins
-Git & GitHub
-��� CI Pipeline Workflow
+---
+
+## �️ Tech Stack
+
+- Java 21
+- Maven
+- Spring Boot
+- Jenkins
+- Git & GitHub
+
+---
+
+# � CI Pipeline Workflow
+
 The Jenkins pipeline follows this workflow:
 
-Trigger
+1. **Trigger**
+   - Manual trigger or GitHub webhook
 
-Manual trigger or GitHub webhook
-Workspace Cleanup
+2. **Workspace Cleanup**
+   - Old files removed using `deleteDir()`
 
-Old files removed using deleteDir()
-Source Code Checkout
+3. **Source Code Checkout**
+   - Jenkins pulls latest code from GitHub
 
-Jenkins pulls latest code from GitHub
-Build Stage
+4. **Build Stage**
+   - Maven compiles the project
+   - Dependencies resolved
+   - JAR file generated
 
-Maven compiles the project
-Dependencies resolved
-JAR file generated
-Test Stage
+5. **Test Stage**
+   - Unit tests executed
+   - Spring context loads
+   - Build fails if tests fail
 
-Unit tests executed
-Spring context loads
-Build fails if tests fail
-Build Result
+6. **Build Result**
+   - SUCCESS / FAILURE reported in Jenkins dashboard
 
-SUCCESS / FAILURE reported in Jenkins dashboard
-��� Pipeline Architecture
-��� Jenkinsfile (Pipeline as Code)
+---
+
+# � Pipeline Architecture
+
+---
+
+# � Jenkinsfile (Pipeline as Code)
+
 The project uses Declarative Pipeline:
 
+```groovy
 pipeline {
     agent any
 
@@ -70,15 +89,13 @@ pipeline {
 ![Timing](Jenkins/images/Timing.png)
 
 ⏱️ Build Performance
-
 Metric  Value
 Total Build Time        ~5 seconds
 Tests Run       1
 Failures        0
 Errors  0
 Build Status    SUCCESS
-
-��� Generated Artifact
+� Generated Artifact
 
 After successful build:
 
@@ -94,7 +111,7 @@ Cloud VM
 
 Kubernetes Cluster
 
-��� Automation Trigger (Optional Enhancement)
+� Automation Trigger (Optional Enhancement)
 
 The pipeline can be configured with:
 
@@ -104,7 +121,7 @@ SCM Polling
 
 Scheduled Builds
 
-��� Future Improvements
+� Future Improvements
 
 Add Docker build stage
 
@@ -116,7 +133,7 @@ Add SonarQube code quality analysis
 
 Add Jenkins build badge
 
-��� Key Learning Outcomes
+� Key Learning Outcomes
 
 Implemented CI using Jenkins
 
@@ -128,19 +145,19 @@ Integrated GitHub with Jenkins
 
 Analyzed build logs & test results
 
-���‍��� Author
+�‍� Author
 
 Kushagra
-DevOps Enthusiast ���
+DevOps Enthusiast �
 
-��� Conclusion
+� Conclusion
 
 This project demonstrates a foundational CI pipeline setup using Jenkins for a Spring Boot application, ensuring reliable and repeatable builds.
 
 
 ---
 
-# ��� How To Make It Look Even More Professional
+# � How To Make It Look Even More Professional
 
 After pasting:
 
@@ -158,5 +175,4 @@ If using folder:
 In Jenkins → Install "Embeddable Build Status" plugin
 Then add:
 
-![Build Status](http://your-jenkins-url/job/JobApp/badge/icon) 
-.
+![Build Status](http://your-jenkins-url/job/JobApp/badge/icon)
