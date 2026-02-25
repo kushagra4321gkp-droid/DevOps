@@ -158,4 +158,5 @@ If using folder:
 In Jenkins → Install "Embeddable Build Status" plugin
 Then add:
 
-![Build Status](http://your-jenkins-url/job/JobApp/badge/icon)
+![Build Status](http://your-jenkins-url/job/JobApp/badge/icon) 
+.
