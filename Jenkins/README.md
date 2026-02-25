@@ -81,13 +81,13 @@ pipeline {
 ## Pipeline Screenshots
 
 ### Status
-![Status](Jenkins/images/Status.png)
+![Status](images/Status.png)
 
 ### Pipeline Overview
-![Pipeline Overview](Jenkins/images/Pipeline_Overview.png)
+![Pipeline Overview](images/Pipeline_Overview.png)
 
 ### Timing
-![Timing](Jenkins/images/Timing.png)
+![Timing](images/Timing.png)
 
 ---
 
