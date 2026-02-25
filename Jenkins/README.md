@@ -1,5 +1,9 @@
 # JobApp - CI Pipeline with Jenkins
 
+<p align="center">
+  <img src="https://www.jenkins.io/images/logos/jenkins/jenkins.png" width="150" alt="Jenkins Logo">
+</p>
+
 This project demonstrates a complete Continuous Integration (CI) workflow using Jenkins to build and test a Spring Boot application.
 
 ---
