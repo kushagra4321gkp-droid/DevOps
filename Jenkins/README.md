@@ -1,10 +1,10 @@
-# íº€ JobApp - CI Pipeline with Jenkins
+# ğŸš€ JobApp - CI Pipeline with Jenkins
 
 This project demonstrates a complete Continuous Integration (CI) workflow using **Jenkins** to build and test a Spring Boot application.
 
 ---
 
-## í³– Project Overview
+## ğŸ“– Project Overview
 
 This repository contains:
 
@@ -18,7 +18,7 @@ The pipeline ensures that every code change is automatically built and tested.
 
 ---
 
-## í» ï¸ Tech Stack
+## ğŸ› ï¸ Tech Stack
 
 - Java 21
 - Maven
@@ -28,7 +28,7 @@ The pipeline ensures that every code change is automatically built and tested.
 
 ---
 
-# í´„ CI Pipeline Workflow
+# ğŸ”„ CI Pipeline Workflow
 
 The Jenkins pipeline follows this workflow:
 
@@ -56,11 +56,11 @@ The Jenkins pipeline follows this workflow:
 
 ---
 
-# í³Š Pipeline Architecture
+# ğŸ“Š Pipeline Architecture
 
 ---
 
-# í·¾ Jenkinsfile (Pipeline as Code)
+# ğŸ§¾ Jenkinsfile (Pipeline as Code)
 
 The project uses Declarative Pipeline:
 
