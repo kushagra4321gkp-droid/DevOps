@@ -89,12 +89,14 @@ pipeline {
 ![Timing](Jenkins/images/Timing.png)
 
 ‚è±Ô∏è Build Performance
+
 Metric  Value
 Total Build Time        ~5 seconds
 Tests Run       1
 Failures        0
 Errors  0
 Build Status    SUCCESS
+
 Ì≥¶ Generated Artifact
 
 After successful build:
