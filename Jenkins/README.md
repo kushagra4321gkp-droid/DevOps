@@ -69,11 +69,29 @@ The project uses Declarative Pipeline:
 ```groovy
 pipeline {
     agent any
-
-    stages {
-        stage('Build') {
-            steps {
-                sh 'mvn clean install'
+    stages{
+        stage("Clean Up"){
+            steps{
+                deleteDir()
+            }
+        }
+        stage("Clone Repo"){
+            steps{
+                sh "git clone https://github.com/kushagra4321gkp-droid/JobApp.git"
+            }
+        }
+        stage("Build"){
+            steps{
+                dir("JobApp"){
+                    sh "mvn clean install"
+                }
+            }
+        }
+        stage("Test"){
+            steps{
+                dir("JobApp"){
+                    sh "mvn test"
+                }
             }
         }
     }
@@ -156,7 +174,7 @@ The pipeline can be configured with:
 
 ## Author
 
-Kushagra  
+Kushagra Tiwari 
 DevOps Enthusiast  
 
 ---
@@ -167,27 +185,3 @@ This project demonstrates a foundational CI pipeline setup using Jenkins for a S
 
 ---
 
-# How To Make It Look Even More Professional
-
-### 1. Replace Image Paths
-
-If using root images:
-
-```markdown
-![Pipeline Overview](pipeline-overview.png)
-```
-
-If using folder:
-
-```markdown
-![Pipeline Overview](images/pipeline-overview.png)
-```
-
-### 2. Add Jenkins Badge (Optional Advanced)
-
-In Jenkins → Install **Embeddable Build Status** plugin  
-Then add:
-
-```markdown
-![Build Status](http://your-jenkins-url/job/JobApp/badge/icon)
-```
