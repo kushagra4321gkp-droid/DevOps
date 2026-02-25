@@ -76,14 +76,17 @@ pipeline {
         }
     }
 }
-Ì≥∑ Pipeline Screenshots
-Ì¥π Pipeline Overview
 
-Ì¥π Build Stage Console Output
+## Pipeline Screenshots
 
-Ì¥π Test Execution
+### Status
+![Status](Jenkins/images/Status.png)
 
-Ì¥π Final Build Status
+### Pipeline Overview
+![Pipeline Overview](Jenkins/images/Pipeline_Overview.png)
+
+### Timing
+![Timing](Jenkins/images/Timing.png)
 
 ‚è±Ô∏è Build Performance
 Metric  Value
