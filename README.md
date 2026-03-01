@@ -1,4 +1,3 @@
-```markdown
 # 👨‍💻 Kushagra Tiwari – DevOps & Backend Engineering Portfolio 🚀
 
 > Personal GitHub workspace focused on DevOps Engineering, Backend Development, Infrastructure Automation, and CI/CD.
@@ -286,4 +285,3 @@ All repositories are designed to show progression, not random experimentation.
 ---
 
 **End of README**
-```
