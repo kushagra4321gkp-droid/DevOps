@@ -1,4 +1,4 @@
-# JobApp - CI Pipeline with Jenkins
+# JobApp - CI/CD Pipeline with Jenkins
 
 <p align="center">
   <img src="https://www.jenkins.io/images/logos/jenkins/jenkins.png" width="150" alt="Jenkins Logo">
